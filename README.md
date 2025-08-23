@@ -21,7 +21,22 @@ Notebook: `PakWheels_webscraper.ipynb`
 - You can change:  
   - How many ads to scrape.  
   - Output filename.  
+  ```python
+#=======================Make Changes Here=======================================
+#max no of ads you want to scrap
+no_of_ads = 1150
 
+#url for the search page with all the ads
+BASE_URL = "https://www.pakwheels.com/used-cars/search/-/mk_suzuki/md_mehran/ct_islamabad/ca_jinnah-garden/"
+#car name
+car = "Corolla"
+
+#path to save the data
+save_path = f"{car}_ads_data.csv"
+
+#===============================================================================
+
+  ```
 ---
 
 ## 2. Get Results from Complete Data
