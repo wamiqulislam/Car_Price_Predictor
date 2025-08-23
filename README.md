@@ -19,7 +19,7 @@ Notebook: `PakWheels_webscraper.ipynb`
 - The scraper will:  
   - Visit each ad on the search results page.  
   - Collect details (price, mileage, year, etc.).  
-  - Save everything into a **CSV file** inside the `data/` folder.  
+  - Save everything into a **CSV file**.  
 - You can change:  
   - How many ads to scrape.  
   - Output filename.
