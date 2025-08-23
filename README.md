@@ -5,7 +5,9 @@ This project helps you check whether a car listed on **PakWheels** is **fairly p
 It works in three steps:  
 1. **Scrape data** from PakWheels ads.  
 2. **Train a machine learning model** on the scraped data to estimate fair car prices.  
-3. **Predict** the expected price of all cars in the dataset (or a single car ad).  
+3. **Predict** the expected price of all cars in the dataset (or a single car ad).
+
+You can run this for yourself by reading the instructions and making the changes in the mentioned parts of the code
 
 ---
 
@@ -22,6 +24,8 @@ Notebook: `PakWheels_webscraper.ipynb`
   - How many ads to scrape.  
   - Output filename.
 
+
+`PakWheels_webscraper.ipynb`  
 ```
 #=======================Make Changes Here=======================================
 #max no of ads you want to scrap
@@ -55,6 +59,8 @@ This helps you quickly see which ads are the **best deals**.
 
 You can control whether to train the model for **one specific car** (e.g. Toyota Corolla) or for **all cars together**:  
 
+
+`Data_analysis,_model_training_&_results.ipynb`  
 ```python
 #=======================Make Changes Here=======================================
 
@@ -87,6 +93,7 @@ Notebook: `Single_Car_Price_Predictor.ipynb`
 
 Tip: Works best when you use the model trained for **one car type** (e.g. only Suzuki Mehran).  
 
+`Single_Car_Price_Predictor.ipynb`  
 ```python
 #==========================Make Changes Here====================================
 
